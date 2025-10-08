@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
         
       <div>
-        <footer className="footer sm:footer-horizontal bg-base-300 text-base-content md:gap-10 md:px-5 lg:px-15 py-10">
+        <footer className="footer sm:footer-horizontal bg-[#001931] text-[#FFFFFF] md:gap-10 md:px-5 lg:px-15 py-10">
 
           <div className="w-full flex flex-col items-center md:items-start">
             <h6 className="footer-title">Useful Links</h6>
@@ -31,8 +31,8 @@ const Footer = () => {
               <div className="join">
                 <input
                   type="text"
-                  placeholder="username123@gmail.com"
-                  className="input input-bordered"
+                  placeholder="username@gmail.com"
+                  className="input input-bordered text-black"
                 />
                 <a className="btn btn-primary">Subscribe</a>
               </div>
@@ -41,7 +41,7 @@ const Footer = () => {
 
         </footer>
 
-        <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+        <footer className="footer sm:footer-horizontal footer-center bg-[#001931] text-[#FFFFFF] p-4">
           <aside>
             <p>
               Copyright © {new Date().getFullYear()} - All right reserved by

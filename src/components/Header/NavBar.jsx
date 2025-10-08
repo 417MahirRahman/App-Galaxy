@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="font-bold grid gap-3 lg:grid-cols-3 lg:gap-5 lg:text-center lg:text-lg xl:text-xl">
         <div><Link className="" to={"/"}>Home</Link></div>
         <div><Link to={"/apps"}>Apps</Link></div>
-        <div><Link to={"/hi"}>My Installation</Link></div>   
+        <div><Link to={"/my_installation"}>My Installation</Link></div>   
       </div>
     </>
   );
