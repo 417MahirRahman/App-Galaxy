@@ -41,7 +41,7 @@ const NavBar = () => {
             {links}
           </ul>
         </div>
-        <a className="flex items-center font-extrabold text-sm md:text-base lg:text-lg xl:text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent cursor-pointer"><img className="w-[40px] h-[40px] hidden lg:block" src={logo} alt="" />App Galaxy</a>
+        <a className="flex items-center font-extrabold text-sm md:text-lg lg:text-xl xl:text-2xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent cursor-pointer gap-2"><img className="w-[40px] h-[40px] hidden lg:block" src={logo} alt="" />App Galaxy</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
