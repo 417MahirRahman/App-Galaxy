@@ -2,8 +2,6 @@
 
 # App Galaxy
 
-![App Galaxy Banner](./logo.png)
-
 **App Galaxy** — Explore. Discover. Analyze.  
 A modern, responsive app discovery platform built with **React**, **Tailwind CSS**, **daisyUI**, and **React Router**. It simulates an app-store experience with ratings, reviews, and app analytics.
 
@@ -13,7 +11,6 @@ A modern, responsive app discovery platform built with **React**, **Tailwind CSS
 
 - Demo: *(add your deployed link here)*  
 - Live Preview: *(add link)*  
-- Docs: This README
 
 ---
 
@@ -28,5 +25,17 @@ A modern, responsive app discovery platform built with **React**, **Tailwind CSS
 
 ---
 
-## 📁 Project Structure (recommended)
+## ⚙️ Installation & Setup
+
+```bash
+# clone
+git clone https://github.com/417MahirRahman/App-Galaxy.git
+cd app-galaxy
+
+# install
+npm install
+
+# run dev server
+npm run dev
+
 
