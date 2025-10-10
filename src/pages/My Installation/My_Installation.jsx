@@ -36,8 +36,7 @@ const My_Installation = () => {
     localStorage.setItem("installed", JSON.stringify(remaining));
     setInstalledApps(remaining);
     toast.success(`${title} Uninstalled`),
-      {
-        position: "top-right",
+      { position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: false,
