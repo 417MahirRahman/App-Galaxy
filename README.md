@@ -9,7 +9,7 @@ A modern, responsive app discovery platform built with **React**, **Tailwind CSS
 
 ## 🚀 Quick Links
  
-- Live Preview: *[(add link)](https://app-galaxy.netlify.app/)*  
+- Live Preview: *[App Galaxy](https://app-galaxy.netlify.app/)*  
 
 ---
 
