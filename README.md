@@ -1,16 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# App Galaxy
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![App Galaxy Banner](./logo.png)
 
-## React Compiler
+**App Galaxy** — Explore. Discover. Analyze.  
+A modern, responsive app discovery platform built with **React**, **Tailwind CSS**, **daisyUI**, and **React Router**. It simulates an app-store experience with ratings, reviews, and app analytics.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Quick Links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Demo: *(add your deployed link here)*  
+- Live Preview: *(add link)*  
+- Docs: This README
+
+---
+
+## ✨ Features
+
+- Browse 30+ curated apps with images, ratings, downloads and reviews.  
+- Top 8 featured apps on Home (loader-based).  
+- Nested routes with clean layout (Navbar + Footer persist).  
+- Per-route loaders and errorElements (scoped error pages).  
+- Dynamic star rating + ratings-distribution horizontal bars (Recharts).  
+- Tailwind CSS + daisyUI (forced light theme) with gradient UI.
+
+---
+
+## 📁 Project Structure (recommended)
+

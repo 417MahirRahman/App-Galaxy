@@ -1,14 +1,18 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "../../assets/logo.png"
 
 const NavBar = () => {
+
+  const activeStyle = "text-purple-600 font-bold border-b-2 border-purple-600";
+  const normalStyle = "text-black";
+
   const links = (
     <>
       <div className="font-bold grid gap-3 lg:grid-cols-3 lg:gap-5 lg:text-center lg:text-lg xl:text-xl">
-        <div><Link className="" to={"/"}>Home</Link></div>
-        <div><Link to={"/apps"}>Apps</Link></div>
-        <div><Link to={"/my_installation"}>My Installation</Link></div>   
+        <div><NavLink className={({ isActive }) => (isActive ? activeStyle : normalStyle)} to={"/"}>Home</NavLink></div>
+        <div><NavLink className={({ isActive }) => (isActive ? activeStyle : normalStyle)} to={"/apps"}>Apps</NavLink></div>
+        <div><NavLink  className={({ isActive }) => (isActive ? activeStyle : normalStyle)} to={"/my_installation"}>My Installation</NavLink></div>   
       </div>
     </>
   );
